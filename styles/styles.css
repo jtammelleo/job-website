@@ -34,7 +34,7 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 hr{border:0;border-top:1px solid #eee;margin:30px 0}
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 h1,button {font-family: "Montserrat", sans-serif}
- 
+
  /* Lato - Latin */
 @font-face {
   font-family: 'Lato';
@@ -59,7 +59,7 @@ h1,button {font-family: "Montserrat", sans-serif}
 #Boston_skyline_text {position: absolute;top: 0%;left: 0%;transform: translate(0%, 0%)}
 
 /* ARCGIS Map */
-.embed-container {position: relative; padding-bottom: 57%; height: 0; max-width: 100%;} 
+.embed-container {position: relative; padding-bottom: 57%; height: 0; max-width: 100%;}
 .embed-container iframe
 .embed-container object
 .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
@@ -109,7 +109,7 @@ h1,button {font-family: "Montserrat", sans-serif}
 .w3-col.l9{width:74.99999%}.w3-col.l10{width:83.33333%}.w3-col.l11{width:91.66666%}.w3-col.l12{width:99.99999%}}
 .w3-content{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}
 @media (max-width:600px){.w3-modal-content{margin:0 10px;width:auto!important}.w3-modal{padding-top:30px}
-.w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{position:relative}	
+.w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{position:relative}
 .w3-hide-small{display:none!important}.w3-mobile{display:block;width:100%!important}.w3-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile{text-align:center}
 .w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{width:100%}}
 @media (max-width:768px){.w3-modal-content{width:500px}.w3-modal{padding-top:50px}}
@@ -119,10 +119,10 @@ h1,button {font-family: "Montserrat", sans-serif}
 
 /* Buttons */
 .w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
-.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
 .w3-button:hover{color:#000!important;background-color:#fff!important}
 
-/* Alignment */ 
+/* Alignment */
 .w3-left-align{text-align:left!important}
 .w3-right-align{text-align:right!important}
 .w3-justify{text-align:justify!important}
@@ -142,3 +142,14 @@ h1,button {font-family: "Montserrat", sans-serif}
 .w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}
 .w3-padding-32{padding-top:32px!important;padding-bottom:32px!important}
 .w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+
+table {
+	border-collapse: collapse;
+	border: 2px black solid;
+	font: 12px sans-serif;
+}
+
+td {
+	border: 1px black solid;
+	padding: 5px;
+}
