@@ -1,18 +1,33 @@
-<table border="1" class="dataframe">
+<table border="1" class="table">
   <thead>
+     <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
     <tr style="text-align: right;">
       <th></th>
-      <th>Current Title</th>
-      <th>Match Title</th>
+      <th>Current Title </th>
+      <th>Match Title <b>Search here: 
+          <input id="gfg" type="text" 
+                 placeholder="Search here">
+        </b></th>
       <th>Index</th>
-      <th>Total Job Openings</th>
+      <th >Total Job Openings</th>
       <th>Median Annual Wage</th>
-      <th>Entry Level Education</th>
-      <th>Work Experience</th>
-      <th>location</th>
+      <th>Entry Level Education <b>Search here: 
+          <input id="gfg1" type="text" 
+                 placeholder="Search here">
+        </b></th>
+      <th>Work Experience <b>Search here: 
+          <input id="gfg2" type="text" 
+                 placeholder="Search here">
+        </b></th>
+      <th>location <b>Search here: 
+          <input id="gfg3" type="text" 
+                 placeholder="Search here">
+        </b></th>
     </tr>
   </thead>
-  <tbody>
+  <tbody id="geeks">
     <tr>
       <th>16</th>
       <td>Bus and Truck Mechanics and Diesel Engine Specialists</td>
@@ -345,3 +360,54 @@
     </tr>
   </tbody>
 </table>
+
+
+
+<script>   
+  var value;
+            $(document).ready(function() {
+                $("#gfg").on("keyup", function() {
+                     value = $(this).val().toLowerCase();
+                    $("#geeks tr").filter(function() {
+                        $(this).toggle($(this).text()
+                        .toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+
+
+
+
+            $(document).ready(function() {
+                $("#gfg1").on("keyup", function() {
+                     value = $(this).val().toLowerCase();
+                    $("#geeks tr").filter(function() {
+                        $(this).toggle($(this).text()
+                        .toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+
+
+
+            $(document).ready(function() {
+                $("#gfg2").on("keyup", function() {
+                     value = $(this).val().toLowerCase();
+                    $("#geeks tr").filter(function() {
+                        $(this).toggle($(this).text()
+                        .toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+
+
+             $(document).ready(function() {
+                $("#gfg3").on("keyup", function() {
+                    var value = $(this).val().toLowerCase();
+                    $("#geeks tr").filter(function() {
+                        $(this).toggle($(this).text()
+                        .toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+        </script>
