@@ -24,7 +24,7 @@
       <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-green" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
       <a href="index.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('Home')">Home</button></a>
       <a href="jobmatch.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('High-level Jobs')">Job Match Tool</button></a>
-      <a href="About-us.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('About us')">About Us</button></a>
+      <a href="about_us.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('About us')">About Us</button></a>
     </div>
   </div>
 
@@ -35,9 +35,9 @@
       <h1 id="jobmatch_header">Job Match Table</h1>
 
       <p class="jobmatch_p">This table allows you to look for jobs that might be a good match for you.
-        For every Standard Occupation Code (which is a distinct code for every type of job), up to 10 related occupations are offered.
-        The related occupations make use of similar skills and experience.
-        This should enable you to transfer to a new job with minimal additional preparation. </p>
+        For every Standard Occupation Code (which is a distinct code for every type of job), up to 10 related occupations are listed.
+        The related occupations make use of similar skills and experience, so this should enable you to transfer to a new job
+         with minimal additional preparation. The match rank indicates how good of a match the new occupation could be (Match Rank 1 = best match)</p>
 
       <div id="table-container"></div>
     </div>
@@ -73,7 +73,7 @@ CsvToHtmlTable.init({
     paging: false
   },
   custom_formatting: [
-    [4, format_link]
+    [13, format_link]
   ]
 });
 </script>
