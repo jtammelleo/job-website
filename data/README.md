@@ -1,7 +1,7 @@
 The final dataset is contained in the job_data.csv file. This data comes from three different sources.
 
 Source 1: US Department of Labor, O*NET Career Changes Matrix.
-- The data is contained in ONET_data.csv.
+- The data is contained in ONET_data.xlsx.
 - The original source is: https://www.onetcenter.org/dictionary/20.3/excel/career_changers_matrix.html
 - This data is used to map existing oil and gas occupations to alternative occupations based on overlapping skills and trainings.
 

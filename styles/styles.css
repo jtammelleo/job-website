@@ -73,15 +73,15 @@ td {
 }
 
 #jobmatch_header {
-  font-size: 60px;
-  margin: 40px;
+  font-size: 40px;
+  margin: 20px;
   text-align: center;
   font-family: "Lato", sans-serif;
 }
 
 .jobmatch_p {
-  font-size: 30px;
-  margin: 20px;
+  font-size: 20px;
+  margin: 10px;
   text-align: center;
   font-family: "Lato", sans-serif;
 }
