@@ -1,0 +1,9 @@
+body {
+background-color: lightcoral;
+}
+
+p, h1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
