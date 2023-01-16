@@ -7,13 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Job Match Table</title>
   <meta content="Display CA Oil and Gas job match options as a searchable, filterable, pretty HTML table. Credits to Derek Eder">
-
-  <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="styles/styles.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-  crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
-
 </head>
 
 <body>
@@ -24,7 +18,8 @@
       <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-green" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
       <a href="index.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('Home')">Home</button></a>
       <a href="jobmatch.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('High-level Jobs')">Job Match Tool</button></a>
-      <a href="About-us.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('About us')">About Us</button></a>
+      <a href="charts.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Charts</button></a>
+      <a href="about_us.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('About us')">About Us</button></a>
     </div>
   </div>
 
@@ -34,10 +29,16 @@
     <div class="col">
       <h1 id="jobmatch_header">Job Match Table</h1>
 
+      <div class="tab_body">
       <p class="jobmatch_p">This table allows you to look for jobs that might be a good match for you.
-        For every Standard Occupation Code (which is a distinct code for every type of job), up to 10 related occupations are offered.
-        The related occupations make use of similar skills and experience.
-        This should enable you to transfer to a new job with minimal additional preparation. </p>
+        For every Standard Occupation Code (which is a distinct code for every type of job), up to 10 related occupations are listed.
+        The related occupations make use of similar skills and experience, so this should enable you to transfer to a new job
+         with minimal additional preparation. The match rank indicates how good of a match the new occupation could be (Match Rank 1 = best match).
+       Use the search bar to filter results, and/or click on the headers to reorder results.</p>
+        <button>
+          <a id="download" href="/data/job_data.csv" download="job_data.csv">Download All Data</a>
+        </button>
+      </div>
 
       <div id="table-container"></div>
     </div>
@@ -49,10 +50,10 @@
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
-<script src="js/jquery.csv.min.js"></script>
+<script src="scripts/jquery.csv.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
-<script src="js/csv_to_html_table.js"></script>
+<script src="scripts/csv_to_html_table.js"></script>
 
 <script>
 function format_link(link) {
@@ -73,7 +74,7 @@ CsvToHtmlTable.init({
     paging: false
   },
   custom_formatting: [
-    [4, format_link]
+    [13, format_link]
   ]
 });
 </script>
