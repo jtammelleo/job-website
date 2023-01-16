@@ -9,7 +9,7 @@ h5{font-size:18px}
 h6{font-size:16px}
 h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:50px 0}
 hr{border:0;border-top:1px solid #eee;margin:30px 0}
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif; text-align: center}
 h1,button {font-family: "Montserrat", sans-serif}
 
  /* Lato - Latin */
@@ -51,7 +51,7 @@ h1,button {font-family: "Montserrat", sans-serif}
 .w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{position:relative}
 .w3-hide-small{display:none!important}.w3-mobile{display:block;width:100%!important}.w3-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile{text-align:center}
 .w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{width:100%}}
-@media (max-width:768px){.w3-modal-content{width:500px}.w3-modal{padding-top:50px}}
+@media (max-width:768px){.w3-modal-content{width:500px}.w3-modal{padding-top:100px}}
 @media (min-width:993px){.w3-modal-content{width:900px}.w3-hide-large{display:none!important}.w3-sidebar.w3-collapse{display:block!important}}
 @media (max-width:992px) and (min-width:601px){.w3-hide-medium{display:none!important}}
 @media (max-width:992px){.w3-sidebar.w3-collapse{display:none}.w3-main{margin-left:0!important;margin-right:0!important}.w3-auto{max-width:100%}}
