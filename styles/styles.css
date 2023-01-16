@@ -11,8 +11,6 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 hr{border:0;border-top:1px solid #eee;margin:30px 0}
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 h1,button {font-family: "Montserrat", sans-serif}
-body {background-color: #e0e0e0;
-background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png")}
 
  /* Lato - Latin */
 @font-face {
@@ -40,6 +38,25 @@ background-image: url("https://www.transparenttextures.com/patterns/wood-pattern
 .w3-text-white,.w3-hover-text-white:hover{color:#fff!important}
 .w3-text-black,.w3-hover-text-black:hover{color:#000!important}
 .w3-text-grey,.w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover{color:#757575!important}
+
+body {background-color: #e0e0e0;
+background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png")}
+
+h2{
+  color: darkgoldenrod;
+  font-size: x-large;
+}
+
+p{
+  color: darkblue;
+}
+h3{
+  color:  darkblue;
+  font-size:  20px;
+}
+a {
+  color: dodgerblue;
+}
 
 /* Navbar Formatting */
 @media (min-width:601px){.w3-col.m1{width:8.33333%}.w3-col.m2{width:16.66666%}.w3-col.m3,.w3-quarter{width:24.99999%}.w3-col.m4,.w3-third{width:33.33333%}
