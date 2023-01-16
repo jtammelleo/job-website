@@ -49,7 +49,7 @@ CsvToHtmlTable = {
                     }
 
                     var $tableBodyRowTd = $("<td></td>");
-                    $tableBodyRowTd.html("<a href='https:/google.com/search?q=jobs+" + csvData[rowIdx][3] + " " + csvData[rowIdx][12] + "' target='_blank'>Click to find openings</a>");
+                    $tableBodyRowTd.html("<a href='https://google.com/search?q=jobs+" + csvData[rowIdx][3] + " " + csvData[rowIdx][12] + "' target='_blank'>Click to find openings</a>");
                     $tableBodyRow.append($tableBodyRowTd);
 
                     $tableBody.append($tableBodyRow);
@@ -59,9 +59,6 @@ CsvToHtmlTable = {
 
                 $table.DataTable(datatables_options);
 
-                if (allow_download) {
-                    $containerElement.append("<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>");
-                }
             });
     }
 };
