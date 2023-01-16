@@ -1,16 +1,21 @@
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: center;">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="table.js"></script>
+    <link href="table_styles.css" rel="stylesheet" />
+    <tr style="text-align: right;">
+      <caption><h5>Alternative Jobs Summary</h5></caption>
       <th></th>
       <th>Current Title</th>
-      <th>Match Title</th>
-      <th>Job Location</th>
-      <th>Entry Level Education</th>
-      <th>Work Experience</th>
+      <th index=1>Match Title <div class="filter"></div></th>
+      <th index=2>Job Location <div class="filter"></div></th>
+      <th index=3>Entry Level Education <div class="filter"></div></th>
+      <th index=4>Work Experience <div class="filter"></div></th>
       <th>Median Annual Wage</th>
-      <th>Annual Wage Range</th>
-      <th>Total Job Openings</th>
+      <th index=6>Annual Wage Range <div class="filter"></div></th>
+      <th>Total Job Openings </th>
     </tr>
+
   </thead>
   <tbody>
     <tr>
@@ -343,5 +348,6 @@
       <td>50,000 to 100,000</td>
       <td>650</td>
     </tr>
+    <script src="table.js"></script>
   </tbody>
 </table>
