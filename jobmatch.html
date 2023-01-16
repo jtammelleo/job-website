@@ -29,10 +29,16 @@
     <div class="col">
       <h1 id="jobmatch_header">Job Match Table</h1>
 
+      <div class="tab_body">
       <p class="jobmatch_p">This table allows you to look for jobs that might be a good match for you.
         For every Standard Occupation Code (which is a distinct code for every type of job), up to 10 related occupations are listed.
         The related occupations make use of similar skills and experience, so this should enable you to transfer to a new job
-         with minimal additional preparation. The match rank indicates how good of a match the new occupation could be (Match Rank 1 = best match)</p>
+         with minimal additional preparation. The match rank indicates how good of a match the new occupation could be (Match Rank 1 = best match).
+       Use the search bar to filter results, and/or click on the headers to reorder results.</p>
+        <button>
+          <a id="download" href="/data/job_data.csv" download="job_data.csv">Download All Data</a>
+        </button>
+      </div>
 
       <div id="table-container"></div>
     </div>
