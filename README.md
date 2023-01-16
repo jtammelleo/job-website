@@ -12,6 +12,7 @@ Original source data and final data are in the data folder. See README.md in dat
 * [Sprint 2 Task Board](https://github.com/users/jtammelleo/projects/5/views/1)
 
 ### Sprint Burndowns
+Sprint 1: We were still trying to get our heads around user stories, pointing, etc this week. We embraced the agile principle of "Individuals and interactions over processes and tools" and decided to use our limited time to have discussions together about who our users were and what the purpose of the sprint planning was versus going through the whole sprint planning procedure. As such, we didn't have the most complete user stories and didn't end up pointing much, but we set ourselves up well and had a much better understanding of the process for Sprint 2!
 
 Sprint 2:
 
