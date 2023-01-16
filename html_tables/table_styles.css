@@ -47,10 +47,16 @@ thead {
 h5{
 
   color: darkgreen;
-  font-size:xx-large;
+  font-size:large;
 }
 
 td {
 white-space: nowrap;
 } 
+
+input{
+  top: 10;
+  color:darkslategray;
+  font-size: large;
+}
 </style>
