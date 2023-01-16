@@ -1,0 +1,365 @@
+<head>
+  <form>
+ <input type="button" value="<<< Click to go back!" onclick="history.back()">
+</form>
+  <h5> Here are the list of Jobs that matched your selection. <br>You can filter the table to further customize</h5>
+
+</head>
+
+<table border="1" class="dataframe" style='padding: 8px;'>
+  <thead>
+   
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="table.js"></script>
+    <link href="table_styles.css" rel="stylesheet" />
+    <tr style="text-align: right;">
+      <caption><h5>Alternative Jobs Summary</h5></caption>
+      <th></th>
+      <th>Current Title</th>
+      <th index=1>Match Title <div class="filter"></div></th>
+      <th index=2>Job Location <div class="filter"></div></th>
+      <th index=3>Entry Level Education <div class="filter"></div></th>
+      <th index=4>Work Experience <div class="filter"></div></th>
+      <th>Median Annual Wage</th>
+      <th index=6>Annual Wage Range <div class="filter"></div></th>
+      <th>Total Job Openings </th>
+    </tr>
+
+  </thead>
+  <tbody>
+    <tr>
+      <th>3</th>
+      <td>Helpers--Production Workers</td>
+      <td>Janitors and Cleaners, Except Maids and Housekeeping Cleaners</td>
+      <td>Contra Costa</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>41805.0</td>
+      <td>below 50,000</td>
+      <td>20500</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Helpers--Production Workers</td>
+      <td>Landscaping and Groundskeeping Workers</td>
+      <td>Contra Costa</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>42676.0</td>
+      <td>below 50,000</td>
+      <td>14490</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Helpers--Production Workers</td>
+      <td>Dishwashers</td>
+      <td>Contra Costa</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>32213.0</td>
+      <td>below 50,000</td>
+      <td>10360</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>Helpers--Production Workers</td>
+      <td>Packaging and Filling Machine Operators and Tenders</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>36298.0</td>
+      <td>below 50,000</td>
+      <td>3560</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>Helpers--Production Workers</td>
+      <td>Welders, Cutters, and Welder Fitters</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>57113.0</td>
+      <td>50,000 to 100,000</td>
+      <td>1980</td>
+    </tr>
+    <tr>
+      <th>128</th>
+      <td>Helpers--Production Workers</td>
+      <td>Slaughterers and Meat Packers</td>
+      <td>Contra Costa</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>36218.0</td>
+      <td>below 50,000</td>
+      <td>1090</td>
+    </tr>
+    <tr>
+      <th>129</th>
+      <td>Helpers--Production Workers</td>
+      <td>Sewing Machine Operators</td>
+      <td>Contra Costa</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>33819.0</td>
+      <td>below 50,000</td>
+      <td>710</td>
+    </tr>
+    <tr>
+      <th>191</th>
+      <td>Helpers--Production Workers</td>
+      <td>Molding and Casting Workers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>45201.0</td>
+      <td>below 50,000</td>
+      <td>310</td>
+    </tr>
+    <tr>
+      <th>289</th>
+      <td>Helpers--Production Workers</td>
+      <td>Sawing Machine Setters, Operators, and Tenders, Wood</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>32117.0</td>
+      <td>below 50,000</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <th>312</th>
+      <td>Helpers--Production Workers</td>
+      <td>Coil Winders, Tapers, and Finishers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <th>333</th>
+      <td>Helpers--Production Workers</td>
+      <td>Janitors and Cleaners, Except Maids and Housekeeping Cleaners</td>
+      <td>Kern</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>33630.0</td>
+      <td>below 50,000</td>
+      <td>30540</td>
+    </tr>
+    <tr>
+      <th>357</th>
+      <td>Helpers--Production Workers</td>
+      <td>Landscaping and Groundskeeping Workers</td>
+      <td>Kern</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>33966.0</td>
+      <td>below 50,000</td>
+      <td>13830</td>
+    </tr>
+    <tr>
+      <th>359</th>
+      <td>Helpers--Production Workers</td>
+      <td>Packaging and Filling Machine Operators and Tenders</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>33213.0</td>
+      <td>below 50,000</td>
+      <td>10860</td>
+    </tr>
+    <tr>
+      <th>379</th>
+      <td>Helpers--Production Workers</td>
+      <td>Dishwashers</td>
+      <td>Kern</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>30206.0</td>
+      <td>below 50,000</td>
+      <td>7970</td>
+    </tr>
+    <tr>
+      <th>380</th>
+      <td>Helpers--Production Workers</td>
+      <td>Welders, Cutters, and Welder Fitters</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>44084.0</td>
+      <td>below 50,000</td>
+      <td>5810</td>
+    </tr>
+    <tr>
+      <th>392</th>
+      <td>Helpers--Production Workers</td>
+      <td>Slaughterers and Meat Packers</td>
+      <td>Kern</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>31688.0</td>
+      <td>below 50,000</td>
+      <td>4630</td>
+    </tr>
+    <tr>
+      <th>518</th>
+      <td>Helpers--Production Workers</td>
+      <td>Sawing Machine Setters, Operators, and Tenders, Wood</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>32669.0</td>
+      <td>below 50,000</td>
+      <td>550</td>
+    </tr>
+    <tr>
+      <th>554</th>
+      <td>Helpers--Production Workers</td>
+      <td>Sewing Machine Operators</td>
+      <td>Kern</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>32003.0</td>
+      <td>below 50,000</td>
+      <td>430</td>
+    </tr>
+    <tr>
+      <th>570</th>
+      <td>Helpers--Production Workers</td>
+      <td>Molding and Casting Workers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>38070.0</td>
+      <td>below 50,000</td>
+      <td>360</td>
+    </tr>
+    <tr>
+      <th>620</th>
+      <td>Helpers--Production Workers</td>
+      <td>Coil Winders, Tapers, and Finishers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>37791.0</td>
+      <td>below 50,000</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <th>716</th>
+      <td>Helpers--Production Workers</td>
+      <td>Janitors and Cleaners, Except Maids and Housekeeping Cleaners</td>
+      <td>Los Angeles</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>33777.0</td>
+      <td>below 50,000</td>
+      <td>91460</td>
+    </tr>
+    <tr>
+      <th>717</th>
+      <td>Helpers--Production Workers</td>
+      <td>Landscaping and Groundskeeping Workers</td>
+      <td>Los Angeles</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>38408.0</td>
+      <td>below 50,000</td>
+      <td>34460</td>
+    </tr>
+    <tr>
+      <th>718</th>
+      <td>Helpers--Production Workers</td>
+      <td>Dishwashers</td>
+      <td>Los Angeles</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>31295.0</td>
+      <td>below 50,000</td>
+      <td>37660</td>
+    </tr>
+    <tr>
+      <th>719</th>
+      <td>Helpers--Production Workers</td>
+      <td>Sewing Machine Operators</td>
+      <td>Los Angeles</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>31060.0</td>
+      <td>below 50,000</td>
+      <td>11650</td>
+    </tr>
+    <tr>
+      <th>720</th>
+      <td>Helpers--Production Workers</td>
+      <td>Packaging and Filling Machine Operators and Tenders</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>32930.0</td>
+      <td>below 50,000</td>
+      <td>16030</td>
+    </tr>
+    <tr>
+      <th>721</th>
+      <td>Helpers--Production Workers</td>
+      <td>Welders, Cutters, and Welder Fitters</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>43152.0</td>
+      <td>below 50,000</td>
+      <td>6360</td>
+    </tr>
+    <tr>
+      <th>945</th>
+      <td>Helpers--Production Workers</td>
+      <td>Slaughterers and Meat Packers</td>
+      <td>Los Angeles</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>31956.0</td>
+      <td>below 50,000</td>
+      <td>780</td>
+    </tr>
+    <tr>
+      <th>946</th>
+      <td>Helpers--Production Workers</td>
+      <td>Coil Winders, Tapers, and Finishers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>42215.0</td>
+      <td>below 50,000</td>
+      <td>630</td>
+    </tr>
+    <tr>
+      <th>947</th>
+      <td>Helpers--Production Workers</td>
+      <td>Sawing Machine Setters, Operators, and Tenders, Wood</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>34099.0</td>
+      <td>below 50,000</td>
+      <td>510</td>
+    </tr>
+    <tr>
+      <th>948</th>
+      <td>Helpers--Production Workers</td>
+      <td>Molding and Casting Workers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>35884.0</td>
+      <td>below 50,000</td>
+      <td>1640</td>
+    </tr>
+    <script src="table.js"></script>
+  </tbody>
+</table>
+
+
+

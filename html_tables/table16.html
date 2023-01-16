@@ -1,0 +1,360 @@
+<head>
+  <form>
+ <input type="button" value="<<< Click to go back!" onclick="history.back()">
+</form>
+  <h5> Here are the list of Jobs that matched your selection. <br>You can filter the table to further customize</h5>
+
+</head>
+<table border="1" class="dataframe">
+  <thead>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="table.js"></script>
+    <link href="table_styles.css" rel="stylesheet" />
+    <tr style="text-align: right;">
+      <caption><h5>Alternative Jobs Summary</h5></caption>
+      <th></th>
+      <th>Current Title</th>
+      <th index=1>Match Title <div class="filter"></div></th>
+      <th index=2>Job Location <div class="filter"></div></th>
+      <th index=3>Entry Level Education <div class="filter"></div></th>
+      <th index=4>Work Experience <div class="filter"></div></th>
+      <th>Median Annual Wage</th>
+      <th index=6>Annual Wage Range <div class="filter"></div></th>
+      <th>Total Job Openings </th>
+    </tr>
+
+  </thead>
+  <tbody>
+    <tr>
+      <th>18</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>56126.0</td>
+      <td>50,000 to 100,000</td>
+      <td>9020</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Automotive Master Mechanics</td>
+      <td>Contra Costa</td>
+      <td>Postsecondary non-degree award</td>
+      <td>None</td>
+      <td>58692.0</td>
+      <td>50,000 to 100,000</td>
+      <td>5000</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Machinists</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>56742.0</td>
+      <td>50,000 to 100,000</td>
+      <td>2950</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Electric Motor, Power Tool, and Related Repairers</td>
+      <td>Contra Costa</td>
+      <td>Postsecondary non-degree award</td>
+      <td>None</td>
+      <td>78975.0</td>
+      <td>50,000 to 100,000</td>
+      <td>2240</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Mobile Heavy Equipment Mechanics, Except Engines</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>79318.0</td>
+      <td>50,000 to 100,000</td>
+      <td>1270</td>
+    </tr>
+    <tr>
+      <th>111</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Manufacturing Production Technicians</td>
+      <td>Contra Costa</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>1060</td>
+    </tr>
+    <tr>
+      <th>120</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Millwrights</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>91212.0</td>
+      <td>50,000 to 100,000</td>
+      <td>1030</td>
+    </tr>
+    <tr>
+      <th>150</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Maintenance Workers, Machinery</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>62514.0</td>
+      <td>50,000 to 100,000</td>
+      <td>450</td>
+    </tr>
+    <tr>
+      <th>154</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Electrical and Electronics Repairers, Commercial and Industrial Equipment</td>
+      <td>Contra Costa</td>
+      <td>Postsecondary non-degree award</td>
+      <td>None</td>
+      <td>84173.0</td>
+      <td>50,000 to 100,000</td>
+      <td>380</td>
+    </tr>
+    <tr>
+      <th>207</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Stationary Engineers and Boiler Operators</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>104515.0</td>
+      <td>over 100,000</td>
+      <td>350</td>
+    </tr>
+    <tr>
+      <th>340</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>44050.0</td>
+      <td>below 50,000</td>
+      <td>14870</td>
+    </tr>
+    <tr>
+      <th>363</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Automotive Master Mechanics</td>
+      <td>Kern</td>
+      <td>Postsecondary non-degree award</td>
+      <td>None</td>
+      <td>46350.0</td>
+      <td>below 50,000</td>
+      <td>7550</td>
+    </tr>
+    <tr>
+      <th>406</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Machinists</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>44932.0</td>
+      <td>below 50,000</td>
+      <td>2330</td>
+    </tr>
+    <tr>
+      <th>423</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Mobile Heavy Equipment Mechanics, Except Engines</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>60851.0</td>
+      <td>50,000 to 100,000</td>
+      <td>1960</td>
+    </tr>
+    <tr>
+      <th>441</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Maintenance Workers, Machinery</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>51369.0</td>
+      <td>50,000 to 100,000</td>
+      <td>1460</td>
+    </tr>
+    <tr>
+      <th>442</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Millwrights</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>51369.0</td>
+      <td>50,000 to 100,000</td>
+      <td>1460</td>
+    </tr>
+    <tr>
+      <th>451</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Manufacturing Production Technicians</td>
+      <td>Kern</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>1120</td>
+    </tr>
+    <tr>
+      <th>510</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Electrical and Electronics Repairers, Commercial and Industrial Equipment</td>
+      <td>Kern</td>
+      <td>Postsecondary non-degree award</td>
+      <td>None</td>
+      <td>70018.0</td>
+      <td>50,000 to 100,000</td>
+      <td>510</td>
+    </tr>
+    <tr>
+      <th>578</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Stationary Engineers and Boiler Operators</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>81510.0</td>
+      <td>50,000 to 100,000</td>
+      <td>330</td>
+    </tr>
+    <tr>
+      <th>612</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Electric Motor, Power Tool, and Related Repairers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>48308.0</td>
+      <td>below 50,000</td>
+      <td>170</td>
+    </tr>
+    <tr>
+      <th>693</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Automotive Master Mechanics</td>
+      <td>Los Angeles</td>
+      <td>Postsecondary non-degree award</td>
+      <td>None</td>
+      <td>49852.0</td>
+      <td>below 50,000</td>
+      <td>16380</td>
+    </tr>
+    <tr>
+      <th>694</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>44599.0</td>
+      <td>below 50,000</td>
+      <td>36000</td>
+    </tr>
+    <tr>
+      <th>695</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Machinists</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>45567.0</td>
+      <td>below 50,000</td>
+      <td>10010</td>
+    </tr>
+    <tr>
+      <th>828</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Manufacturing Production Technicians</td>
+      <td>Los Angeles</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>2280</td>
+    </tr>
+    <tr>
+      <th>829</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Electric Motor, Power Tool, and Related Repairers</td>
+      <td>Los Angeles</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>73064.0</td>
+      <td>50,000 to 100,000</td>
+      <td>440</td>
+    </tr>
+    <tr>
+      <th>830</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Mobile Heavy Equipment Mechanics, Except Engines</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>72570.0</td>
+      <td>50,000 to 100,000</td>
+      <td>2980</td>
+    </tr>
+    <tr>
+      <th>831</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Maintenance Workers, Machinery</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>61148.0</td>
+      <td>50,000 to 100,000</td>
+      <td>1340</td>
+    </tr>
+    <tr>
+      <th>832</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Electrical and Electronics Repairers, Commercial and Industrial Equipment</td>
+      <td>Los Angeles</td>
+      <td>Postsecondary non-degree award</td>
+      <td>None</td>
+      <td>73976.0</td>
+      <td>50,000 to 100,000</td>
+      <td>900</td>
+    </tr>
+    <tr>
+      <th>833</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Stationary Engineers and Boiler Operators</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>77362.0</td>
+      <td>50,000 to 100,000</td>
+      <td>650</td>
+    </tr>
+    <tr>
+      <th>834</th>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Millwrights</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>63185.0</td>
+      <td>50,000 to 100,000</td>
+      <td>710</td>
+    </tr>
+    <script src="table.js"></script>
+  </tbody>
+</table>

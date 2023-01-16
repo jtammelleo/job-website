@@ -1,0 +1,361 @@
+
+<head>
+  <form>
+ <input type="button" value="<<< Click to go back!" onclick="history.back()">
+</form>
+  <h5> Here are the list of Jobs that matched your selection. <br>You can filter the table to further customize</h5>
+
+</head>
+<table border="1" class="dataframe">
+  <thead>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="table.js"></script>
+    <link href="table_styles.css" rel="stylesheet" />
+    <tr style="text-align: right;">
+      <caption><h5>Alternative Jobs Summary</h5></caption>
+      <th></th>
+      <th>Current Title</th>
+      <th index=1>Match Title <div class="filter"></div></th>
+      <th index=2>Job Location <div class="filter"></div></th>
+      <th index=3>Entry Level Education <div class="filter"></div></th>
+      <th index=4>Work Experience <div class="filter"></div></th>
+      <th>Median Annual Wage</th>
+      <th index=6>Annual Wage Range <div class="filter"></div></th>
+      <th>Total Job Openings </th>
+    </tr>
+
+  </thead>
+  <tbody>
+    <tr>
+      <th>12</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>56126.0</td>
+      <td>50,000 to 100,000</td>
+      <td>9020</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Pipe Fitters and Steamfitters</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>115163.0</td>
+      <td>over 100,000</td>
+      <td>5530</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Plumbers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>115163.0</td>
+      <td>over 100,000</td>
+      <td>5530</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>92606.0</td>
+      <td>50,000 to 100,000</td>
+      <td>2770</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>First-Line Supervisors of Animal Husbandry and Animal Care Workers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>49822.0</td>
+      <td>below 50,000</td>
+      <td>3390</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>65532.0</td>
+      <td>50,000 to 100,000</td>
+      <td>2110</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Industrial Production Managers</td>
+      <td>Contra Costa</td>
+      <td>Bachelor's degree</td>
+      <td>5 years or more</td>
+      <td>136422.0</td>
+      <td>over 100,000</td>
+      <td>1400</td>
+    </tr>
+    <tr>
+      <th>142</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Surveying Technicians</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>84799.0</td>
+      <td>50,000 to 100,000</td>
+      <td>570</td>
+    </tr>
+    <tr>
+      <th>267</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Forest and Conservation Technicians</td>
+      <td>Contra Costa</td>
+      <td>Bachelor's degree</td>
+      <td>None</td>
+      <td>105671.0</td>
+      <td>over 100,000</td>
+      <td>160</td>
+    </tr>
+    <tr>
+      <th>297</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Explosives Workers, Ordnance Handling Experts, and Blasters</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th>334</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>44050.0</td>
+      <td>below 50,000</td>
+      <td>14870</td>
+    </tr>
+    <tr>
+      <th>365</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>First-Line Supervisors of Animal Husbandry and Animal Care Workers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>42713.0</td>
+      <td>below 50,000</td>
+      <td>9430</td>
+    </tr>
+    <tr>
+      <th>382</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>78810.0</td>
+      <td>50,000 to 100,000</td>
+      <td>4260</td>
+    </tr>
+    <tr>
+      <th>384</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Pipe Fitters and Steamfitters</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>58792.0</td>
+      <td>50,000 to 100,000</td>
+      <td>4990</td>
+    </tr>
+    <tr>
+      <th>385</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Plumbers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>58792.0</td>
+      <td>50,000 to 100,000</td>
+      <td>4990</td>
+    </tr>
+    <tr>
+      <th>432</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Industrial Production Managers</td>
+      <td>Kern</td>
+      <td></td>
+      <td></td>
+      <td>38701.0</td>
+      <td>below 50,000</td>
+      <td>2204370</td>
+    </tr>
+    <tr>
+      <th>437</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Forest and Conservation Technicians</td>
+      <td>Kern</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>1820</td>
+    </tr>
+    <tr>
+      <th>445</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>60438.0</td>
+      <td>50,000 to 100,000</td>
+      <td>1440</td>
+    </tr>
+    <tr>
+      <th>536</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Surveying Technicians</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>63756.0</td>
+      <td>50,000 to 100,000</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <th>637</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Explosives Workers, Ordnance Handling Experts, and Blasters</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <th>660</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Industrial Production Managers</td>
+      <td>Los Angeles</td>
+      <td>Bachelor's degree</td>
+      <td>5 years or more</td>
+      <td>109408.0</td>
+      <td>over 100,000</td>
+      <td>3610</td>
+    </tr>
+    <tr>
+      <th>661</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>87336.0</td>
+      <td>50,000 to 100,000</td>
+      <td>9010</td>
+    </tr>
+    <tr>
+      <th>662</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>44599.0</td>
+      <td>below 50,000</td>
+      <td>36000</td>
+    </tr>
+    <tr>
+      <th>663</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Pipe Fitters and Steamfitters</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>52889.0</td>
+      <td>50,000 to 100,000</td>
+      <td>13400</td>
+    </tr>
+    <tr>
+      <th>664</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Plumbers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>52889.0</td>
+      <td>50,000 to 100,000</td>
+      <td>13400</td>
+    </tr>
+    <tr>
+      <th>731</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>62308.0</td>
+      <td>50,000 to 100,000</td>
+      <td>4430</td>
+    </tr>
+    <tr>
+      <th>732</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Forest and Conservation Technicians</td>
+      <td>Los Angeles</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>760</td>
+    </tr>
+    <tr>
+      <th>733</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>First-Line Supervisors of Animal Husbandry and Animal Care Workers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>57957.0</td>
+      <td>50,000 to 100,000</td>
+      <td>370</td>
+    </tr>
+    <tr>
+      <th>734</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Explosives Workers, Ordnance Handling Experts, and Blasters</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>820</td>
+    </tr>
+    <tr>
+      <th>735</th>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Surveying Technicians</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>90388.0</td>
+      <td>50,000 to 100,000</td>
+      <td>740</td>
+    </tr>
+    <script src="table.js"></script>
+  </tbody>
+</table>

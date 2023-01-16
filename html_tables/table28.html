@@ -1,0 +1,360 @@
+<head>
+  <form>
+ <input type="button" value="<<< Click to go back!" onclick="history.back()">
+</form>
+  <h5> Here are the list of Jobs that matched your selection. <br>You can filter the table to further customize</h5>
+
+</head>
+<table border="1" class="dataframe">
+  <thead>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="table.js"></script>
+    <link href="table_styles.css" rel="stylesheet" />
+    <tr style="text-align: right;">
+      <caption><h5>Alternative Jobs Summary</h5></caption>
+      <th></th>
+      <th>Current Title</th>
+      <th index=1>Match Title <div class="filter"></div></th>
+      <th index=2>Job Location <div class="filter"></div></th>
+      <th index=3>Entry Level Education <div class="filter"></div></th>
+      <th index=4>Work Experience <div class="filter"></div></th>
+      <th>Median Annual Wage</th>
+      <th index=6>Annual Wage Range <div class="filter"></div></th>
+      <th>Total Job Openings </th>
+    </tr>
+
+  </thead>
+  <tbody>
+    <tr>
+      <th>55</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Plumbers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>115163.0</td>
+      <td>over 100,000</td>
+      <td>5530</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Pipe Fitters and Steamfitters</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>115163.0</td>
+      <td>over 100,000</td>
+      <td>5530</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Electric Motor, Power Tool, and Related Repairers</td>
+      <td>Contra Costa</td>
+      <td>Postsecondary non-degree award</td>
+      <td>None</td>
+      <td>78975.0</td>
+      <td>50,000 to 100,000</td>
+      <td>2240</td>
+    </tr>
+    <tr>
+      <th>104</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>74566.0</td>
+      <td>50,000 to 100,000</td>
+      <td>1230</td>
+    </tr>
+    <tr>
+      <th>121</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Millwrights</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>91212.0</td>
+      <td>50,000 to 100,000</td>
+      <td>1030</td>
+    </tr>
+    <tr>
+      <th>200</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Control and Valve Installers and Repairers, Except Mechanical Door</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>56597.0</td>
+      <td>50,000 to 100,000</td>
+      <td>280</td>
+    </tr>
+    <tr>
+      <th>208</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Stationary Engineers and Boiler Operators</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>104515.0</td>
+      <td>over 100,000</td>
+      <td>350</td>
+    </tr>
+    <tr>
+      <th>271</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Motorboat Mechanics and Service Technicians</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th>272</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Motorcycle Mechanics</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th>309</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Signal and Track Switch Repairers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>65281.0</td>
+      <td>50,000 to 100,000</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <th>370</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>60842.0</td>
+      <td>50,000 to 100,000</td>
+      <td>6340</td>
+    </tr>
+    <tr>
+      <th>390</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Plumbers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>58792.0</td>
+      <td>50,000 to 100,000</td>
+      <td>4990</td>
+    </tr>
+    <tr>
+      <th>391</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Pipe Fitters and Steamfitters</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>58792.0</td>
+      <td>50,000 to 100,000</td>
+      <td>4990</td>
+    </tr>
+    <tr>
+      <th>443</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Millwrights</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>51369.0</td>
+      <td>50,000 to 100,000</td>
+      <td>1460</td>
+    </tr>
+    <tr>
+      <th>485</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Control and Valve Installers and Repairers, Except Mechanical Door</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>59215.0</td>
+      <td>50,000 to 100,000</td>
+      <td>650</td>
+    </tr>
+    <tr>
+      <th>579</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Stationary Engineers and Boiler Operators</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>81510.0</td>
+      <td>50,000 to 100,000</td>
+      <td>330</td>
+    </tr>
+    <tr>
+      <th>608</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Motorboat Mechanics and Service Technicians</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>43781.0</td>
+      <td>below 50,000</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <th>609</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Motorcycle Mechanics</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>43781.0</td>
+      <td>below 50,000</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <th>613</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Electric Motor, Power Tool, and Related Repairers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>48308.0</td>
+      <td>below 50,000</td>
+      <td>170</td>
+    </tr>
+    <tr>
+      <th>634</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Signal and Track Switch Repairers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>62115.0</td>
+      <td>50,000 to 100,000</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th>696</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Industrial Machinery Mechanics</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>60168.0</td>
+      <td>50,000 to 100,000</td>
+      <td>5770</td>
+    </tr>
+    <tr>
+      <th>697</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Plumbers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>52889.0</td>
+      <td>50,000 to 100,000</td>
+      <td>13400</td>
+    </tr>
+    <tr>
+      <th>698</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Pipe Fitters and Steamfitters</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>52889.0</td>
+      <td>50,000 to 100,000</td>
+      <td>13400</td>
+    </tr>
+    <tr>
+      <th>835</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Motorcycle Mechanics</td>
+      <td>Los Angeles</td>
+      <td>Postsecondary non-degree award</td>
+      <td>None</td>
+      <td>32245.0</td>
+      <td>below 50,000</td>
+      <td>260</td>
+    </tr>
+    <tr>
+      <th>836</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Electric Motor, Power Tool, and Related Repairers</td>
+      <td>Los Angeles</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>73064.0</td>
+      <td>50,000 to 100,000</td>
+      <td>440</td>
+    </tr>
+    <tr>
+      <th>837</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Control and Valve Installers and Repairers, Except Mechanical Door</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>79325.0</td>
+      <td>50,000 to 100,000</td>
+      <td>520</td>
+    </tr>
+    <tr>
+      <th>838</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Signal and Track Switch Repairers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>38169.0</td>
+      <td>below 50,000</td>
+      <td>790</td>
+    </tr>
+    <tr>
+      <th>839</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Motorboat Mechanics and Service Technicians</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>53741.0</td>
+      <td>50,000 to 100,000</td>
+      <td>630</td>
+    </tr>
+    <tr>
+      <th>840</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Stationary Engineers and Boiler Operators</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>77362.0</td>
+      <td>50,000 to 100,000</td>
+      <td>650</td>
+    </tr>
+    <tr>
+      <th>841</th>
+      <td>Maintenance and Repair Workers, General</td>
+      <td>Millwrights</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>63185.0</td>
+      <td>50,000 to 100,000</td>
+      <td>710</td>
+    </tr>
+    <script src="table.js"></script>
+  </tbody>
+</table>

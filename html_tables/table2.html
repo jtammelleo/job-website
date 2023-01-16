@@ -1,0 +1,364 @@
+<head>
+  <form>
+ <input type="button" value="<<< Click to go back!" onclick="history.back()">
+</form>
+  <h5> Here are the list of Jobs that matched your selection. <br>You can filter the table to further customize</h5>
+
+</head>
+<table border="1" class="dataframe" style='padding: 8px;'>
+  <thead>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="table.js"></script>
+    <link href="table_styles.css" rel="stylesheet" />
+    <tr style="text-align: right;">
+      <caption><h5>Alternative Jobs Summary</h5></caption>
+      <th></th>
+      <th>Current Title</th>
+      <th index=1>Match Title <div class="filter"></div></th>
+      <th index=2>Job Location <div class="filter"></div></th>
+      <th index=3>Entry Level Education <div class="filter"></div></th>
+      <th index=4>Work Experience <div class="filter"></div></th>
+      <th>Median Annual Wage</th>
+      <th index=6>Annual Wage Range <div class="filter"></div></th>
+      <th>Total Job Openings </th>
+    </tr>
+
+  </thead>
+  <tbody>
+    <tr>
+      <th>2</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>Industrial Production Managers</td>
+      <td>Contra Costa</td>
+      <td>Bachelor's degree</td>
+      <td>5 years or more</td>
+      <td>136422.0</td>
+      <td>over 100,000</td>
+      <td>1400</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>5 years or more</td>
+      <td>91507.0</td>
+      <td>50,000 to 100,000</td>
+      <td>6150</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>92606.0</td>
+      <td>50,000 to 100,000</td>
+      <td>2770</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Agricultural Crop and Horticultural Workers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>49822.0</td>
+      <td>below 50,000</td>
+      <td>3390</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Logging Workers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>49822.0</td>
+      <td>below 50,000</td>
+      <td>3390</td>
+    </tr>
+    <tr>
+      <th>112</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>Non-Destructive Testing Specialists</td>
+      <td>Contra Costa</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>1060</td>
+    </tr>
+    <tr>
+      <th>181</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>60530.0</td>
+      <td>50,000 to 100,000</td>
+      <td>420</td>
+    </tr>
+    <tr>
+      <th>281</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>Aircraft Cargo Handling Supervisors</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <th>282</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <th>284</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Transportation and Material-Moving Machine and Vehicle Operators</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <th>332</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>Industrial Production Managers</td>
+      <td>Kern</td>
+      <td>Bachelor's degree</td>
+      <td>5 years or more</td>
+      <td>100282.0</td>
+      <td>over 100,000</td>
+      <td>1220</td>
+    </tr>
+    <tr>
+      <th>367</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Agricultural Crop and Horticultural Workers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>42713.0</td>
+      <td>below 50,000</td>
+      <td>9430</td>
+    </tr>
+    <tr>
+      <th>368</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Logging Workers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>42713.0</td>
+      <td>below 50,000</td>
+      <td>9430</td>
+    </tr>
+    <tr>
+      <th>374</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>5 years or more</td>
+      <td>76844.0</td>
+      <td>50,000 to 100,000</td>
+      <td>6860</td>
+    </tr>
+    <tr>
+      <th>383</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>78810.0</td>
+      <td>50,000 to 100,000</td>
+      <td>4260</td>
+    </tr>
+    <tr>
+      <th>402</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>Aircraft Cargo Handling Supervisors</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>36000.0</td>
+      <td>below 50,000</td>
+      <td>3940</td>
+    </tr>
+    <tr>
+      <th>403</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>36000.0</td>
+      <td>below 50,000</td>
+      <td>3940</td>
+    </tr>
+    <tr>
+      <th>404</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Transportation and Material-Moving Machine and Vehicle Operators</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>36000.0</td>
+      <td>below 50,000</td>
+      <td>3940</td>
+    </tr>
+    <tr>
+      <th>452</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>Non-Destructive Testing Specialists</td>
+      <td>Kern</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>1120</td>
+    </tr>
+    <tr>
+      <th>493</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>42339.0</td>
+      <td>below 50,000</td>
+      <td>670</td>
+    </tr>
+    <tr>
+      <th>699</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>Industrial Production Managers</td>
+      <td>Los Angeles</td>
+      <td>Bachelor's degree</td>
+      <td>5 years or more</td>
+      <td>109408.0</td>
+      <td>over 100,000</td>
+      <td>3610</td>
+    </tr>
+    <tr>
+      <th>700</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>5 years or more</td>
+      <td>83301.0</td>
+      <td>50,000 to 100,000</td>
+      <td>14560</td>
+    </tr>
+    <tr>
+      <th>701</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>87336.0</td>
+      <td>50,000 to 100,000</td>
+      <td>9010</td>
+    </tr>
+    <tr>
+      <th>842</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>Non-Destructive Testing Specialists</td>
+      <td>Los Angeles</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>2280</td>
+    </tr>
+    <tr>
+      <th>843</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>Aircraft Cargo Handling Supervisors</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>640</td>
+    </tr>
+    <tr>
+      <th>844</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>640</td>
+    </tr>
+    <tr>
+      <th>845</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Transportation and Material-Moving Machine and Vehicle Operators</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>640</td>
+    </tr>
+    <tr>
+      <th>846</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Agricultural Crop and Horticultural Workers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>57957.0</td>
+      <td>50,000 to 100,000</td>
+      <td>370</td>
+    </tr>
+    <tr>
+      <th>847</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>First-Line Supervisors of Logging Workers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>57957.0</td>
+      <td>50,000 to 100,000</td>
+      <td>370</td>
+    </tr>
+    <tr>
+      <th>848</th>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>34095.0</td>
+      <td>below 50,000</td>
+      <td>860</td>
+    </tr>
+<script src="table.js"></script>
+  </tbody>
+ 
+  
+</table>
+

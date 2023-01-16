@@ -1,0 +1,359 @@
+<head>
+  <form>
+ <input type="button" value="<<< Click to go back!" onclick="history.back()">
+</form>
+  <h5> Here are the list of Jobs that matched your selection. <br>You can filter the table to further customize</h5>
+
+</head>
+<table border="1" class="dataframe">
+  <thead>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="table.js"></script>
+    <link href="table_styles.css" rel="stylesheet" />
+    <tr style="text-align: right;">
+      <caption><h5>Alternative Jobs Summary</h5></caption>
+      <th></th>
+      <th>Current Title</th>
+      <th index=1>Match Title <div class="filter"></div></th>
+      <th index=2>Job Location <div class="filter"></div></th>
+      <th index=3>Entry Level Education <div class="filter"></div></th>
+      <th index=4>Work Experience <div class="filter"></div></th>
+      <th>Median Annual Wage</th>
+      <th index=6>Annual Wage Range <div class="filter"></div></th>
+      <th>Total Job Openings </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>General and Operations Managers</td>
+      <td>Contra Costa</td>
+      <td>Bachelor's degree</td>
+      <td>5 years or more</td>
+      <td>130533.0</td>
+      <td>over 100,000</td>
+      <td>18610</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Industrial Production Managers</td>
+      <td>Contra Costa</td>
+      <td>Bachelor's degree</td>
+      <td>5 years or more</td>
+      <td>136422.0</td>
+      <td>over 100,000</td>
+      <td>1400</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>5 years or more</td>
+      <td>91507.0</td>
+      <td>50,000 to 100,000</td>
+      <td>6150</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>78624.0</td>
+      <td>50,000 to 100,000</td>
+      <td>4200</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>First-Line Supervisors of Animal Husbandry and Animal Care Workers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>49822.0</td>
+      <td>below 50,000</td>
+      <td>3390</td>
+    </tr>
+    <tr>
+      <th>152</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Environmental Engineering Technicians</td>
+      <td>Contra Costa</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>61155.0</td>
+      <td>50,000 to 100,000</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <th>194</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Ship and Boat Captains</td>
+      <td>Contra Costa</td>
+      <td>Postsecondary non-degree award</td>
+      <td>Less than 5 years</td>
+      <td>104583.0</td>
+      <td>over 100,000</td>
+      <td>220</td>
+    </tr>
+    <tr>
+      <th>248</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Municipal Fire Fighting and Prevention Supervisors</td>
+      <td>Contra Costa</td>
+      <td>Postsecondary non-degree award</td>
+      <td>Less than 5 years</td>
+      <td>169771.0</td>
+      <td>over 100,000</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th>249</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Forest Fire Fighting and Prevention Supervisors</td>
+      <td>Contra Costa</td>
+      <td>Postsecondary non-degree award</td>
+      <td>Less than 5 years</td>
+      <td>169771.0</td>
+      <td>over 100,000</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th>283</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>First-Line Supervisors of Transportation and Material-Moving Machine and Vehicle Operators</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <th>330</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Industrial Production Managers</td>
+      <td>Kern</td>
+      <td>Bachelor's degree</td>
+      <td>5 years or more</td>
+      <td>100282.0</td>
+      <td>over 100,000</td>
+      <td>1220</td>
+    </tr>
+    <tr>
+      <th>331</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>General and Operations Managers</td>
+      <td>Kern</td>
+      <td>Bachelor's degree</td>
+      <td>5 years or more</td>
+      <td>96297.0</td>
+      <td>50,000 to 100,000</td>
+      <td>16570</td>
+    </tr>
+    <tr>
+      <th>366</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>First-Line Supervisors of Animal Husbandry and Animal Care Workers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>42713.0</td>
+      <td>below 50,000</td>
+      <td>9430</td>
+    </tr>
+    <tr>
+      <th>373</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>5 years or more</td>
+      <td>76844.0</td>
+      <td>50,000 to 100,000</td>
+      <td>6860</td>
+    </tr>
+    <tr>
+      <th>375</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>65182.0</td>
+      <td>50,000 to 100,000</td>
+      <td>5920</td>
+    </tr>
+    <tr>
+      <th>401</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>First-Line Supervisors of Transportation and Material-Moving Machine and Vehicle Operators</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>36000.0</td>
+      <td>below 50,000</td>
+      <td>3940</td>
+    </tr>
+    <tr>
+      <th>574</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Municipal Fire Fighting and Prevention Supervisors</td>
+      <td>Kern</td>
+      <td>Postsecondary non-degree award</td>
+      <td>Less than 5 years</td>
+      <td>104486.0</td>
+      <td>over 100,000</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <th>575</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Forest Fire Fighting and Prevention Supervisors</td>
+      <td>Kern</td>
+      <td>Postsecondary non-degree award</td>
+      <td>Less than 5 years</td>
+      <td>104486.0</td>
+      <td>over 100,000</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <th>611</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Environmental Engineering Technicians</td>
+      <td>Kern</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>55901.0</td>
+      <td>50,000 to 100,000</td>
+      <td>170</td>
+    </tr>
+    <tr>
+      <th>648</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Ship and Boat Captains</td>
+      <td>Kern</td>
+      <td>Postsecondary non-degree award</td>
+      <td>Less than 5 years</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th>684</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>General and Operations Managers</td>
+      <td>Los Angeles</td>
+      <td>Bachelor's degree</td>
+      <td>5 years or more</td>
+      <td>115909.0</td>
+      <td>over 100,000</td>
+      <td>65590</td>
+    </tr>
+    <tr>
+      <th>685</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Industrial Production Managers</td>
+      <td>Los Angeles</td>
+      <td>Bachelor's degree</td>
+      <td>5 years or more</td>
+      <td>109408.0</td>
+      <td>over 100,000</td>
+      <td>3610</td>
+    </tr>
+    <tr>
+      <th>686</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>First-Line Supervisors of Production and Operating Workers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>63861.0</td>
+      <td>50,000 to 100,000</td>
+      <td>13170</td>
+    </tr>
+    <tr>
+      <th>687</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>First-Line Supervisors of Construction Trades and Extraction Workers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>5 years or more</td>
+      <td>83301.0</td>
+      <td>50,000 to 100,000</td>
+      <td>14560</td>
+    </tr>
+    <tr>
+      <th>807</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Environmental Engineering Technicians</td>
+      <td>Los Angeles</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>61990.0</td>
+      <td>50,000 to 100,000</td>
+      <td>1220</td>
+    </tr>
+    <tr>
+      <th>808</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>First-Line Supervisors of Transportation and Material-Moving Machine and Vehicle Operators</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>640</td>
+    </tr>
+    <tr>
+      <th>809</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>First-Line Supervisors of Animal Husbandry and Animal Care Workers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>57957.0</td>
+      <td>50,000 to 100,000</td>
+      <td>370</td>
+    </tr>
+    <tr>
+      <th>810</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Municipal Fire Fighting and Prevention Supervisors</td>
+      <td>Los Angeles</td>
+      <td>Postsecondary non-degree award</td>
+      <td>Less than 5 years</td>
+      <td>196291.0</td>
+      <td>over 100,000</td>
+      <td>310</td>
+    </tr>
+    <tr>
+      <th>811</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Forest Fire Fighting and Prevention Supervisors</td>
+      <td>Los Angeles</td>
+      <td>Postsecondary non-degree award</td>
+      <td>Less than 5 years</td>
+      <td>196291.0</td>
+      <td>over 100,000</td>
+      <td>310</td>
+    </tr>
+    <tr>
+      <th>812</th>
+      <td>First-Line Supervisors of Mechanics, Installers, and Repairers</td>
+      <td>Ship and Boat Captains</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>41691.0</td>
+      <td>below 50,000</td>
+      <td>160</td>
+    </tr>
+    <script src="table.js"></script>
+  </tbody>
+</table>

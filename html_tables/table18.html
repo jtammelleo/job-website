@@ -1,0 +1,360 @@
+<head>
+  <form>
+ <input type="button" value="<<< Click to go back!" onclick="history.back()">
+</form>
+  <h5> Here are the list of Jobs that matched your selection. <br>You can filter the table to further customize</h5>
+
+</head>
+<table border="1" class="dataframe">
+  <thead>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="table.js"></script>
+    <link href="table_styles.css" rel="stylesheet" />
+    <tr style="text-align: right;">
+      <caption><h5>Alternative Jobs Summary</h5></caption>
+      <th></th>
+      <th>Current Title</th>
+      <th index=1>Match Title <div class="filter"></div></th>
+      <th index=2>Job Location <div class="filter"></div></th>
+      <th index=3>Entry Level Education <div class="filter"></div></th>
+      <th index=4>Work Experience <div class="filter"></div></th>
+      <th>Median Annual Wage</th>
+      <th index=6>Annual Wage Range <div class="filter"></div></th>
+      <th>Total Job Openings </th>
+    </tr>
+
+  </thead>
+  <tbody>
+    <tr>
+      <th>32</th>
+      <td>Power Plant Operators</td>
+      <td>Gas Compressor and Gas Pumping Station Operators</td>
+      <td>Contra Costa</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>34087.0</td>
+      <td>below 50,000</td>
+      <td>7120</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>Power Plant Operators</td>
+      <td>Pump Operators, Except Wellhead Pumpers</td>
+      <td>Contra Costa</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>34087.0</td>
+      <td>below 50,000</td>
+      <td>7120</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>Power Plant Operators</td>
+      <td>Petroleum Pump System Operators, Refinery Operators, and Gaugers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>98102.0</td>
+      <td>50,000 to 100,000</td>
+      <td>1480</td>
+    </tr>
+    <tr>
+      <th>113</th>
+      <td>Power Plant Operators</td>
+      <td>Manufacturing Production Technicians</td>
+      <td>Contra Costa</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>1060</td>
+    </tr>
+    <tr>
+      <th>130</th>
+      <td>Power Plant Operators</td>
+      <td>Nuclear Equipment Operation Technicians</td>
+      <td>Contra Costa</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>53443.0</td>
+      <td>50,000 to 100,000</td>
+      <td>710</td>
+    </tr>
+    <tr>
+      <th>155</th>
+      <td>Power Plant Operators</td>
+      <td>Electrical and Electronics Repairers, Commercial and Industrial Equipment</td>
+      <td>Contra Costa</td>
+      <td>Postsecondary non-degree award</td>
+      <td>None</td>
+      <td>84173.0</td>
+      <td>50,000 to 100,000</td>
+      <td>380</td>
+    </tr>
+    <tr>
+      <th>201</th>
+      <td>Power Plant Operators</td>
+      <td>Control and Valve Installers and Repairers, Except Mechanical Door</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>56597.0</td>
+      <td>50,000 to 100,000</td>
+      <td>280</td>
+    </tr>
+    <tr>
+      <th>209</th>
+      <td>Power Plant Operators</td>
+      <td>Stationary Engineers and Boiler Operators</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>104515.0</td>
+      <td>over 100,000</td>
+      <td>350</td>
+    </tr>
+    <tr>
+      <th>245</th>
+      <td>Power Plant Operators</td>
+      <td>Gas Plant Operators</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>170</td>
+    </tr>
+    <tr>
+      <th>310</th>
+      <td>Power Plant Operators</td>
+      <td>Signal and Track Switch Repairers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>65281.0</td>
+      <td>50,000 to 100,000</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <th>344</th>
+      <td>Power Plant Operators</td>
+      <td>Gas Compressor and Gas Pumping Station Operators</td>
+      <td>Kern</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>31446.0</td>
+      <td>below 50,000</td>
+      <td>19550</td>
+    </tr>
+    <tr>
+      <th>453</th>
+      <td>Power Plant Operators</td>
+      <td>Manufacturing Production Technicians</td>
+      <td>Kern</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>1120</td>
+    </tr>
+    <tr>
+      <th>486</th>
+      <td>Power Plant Operators</td>
+      <td>Control and Valve Installers and Repairers, Except Mechanical Door</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>59215.0</td>
+      <td>50,000 to 100,000</td>
+      <td>650</td>
+    </tr>
+    <tr>
+      <th>514</th>
+      <td>Power Plant Operators</td>
+      <td>Electrical and Electronics Repairers, Commercial and Industrial Equipment</td>
+      <td>Kern</td>
+      <td>Postsecondary non-degree award</td>
+      <td>None</td>
+      <td>70018.0</td>
+      <td>50,000 to 100,000</td>
+      <td>510</td>
+    </tr>
+    <tr>
+      <th>521</th>
+      <td>Power Plant Operators</td>
+      <td>Petroleum Pump System Operators, Refinery Operators, and Gaugers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>76908.0</td>
+      <td>50,000 to 100,000</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <th>527</th>
+      <td>Power Plant Operators</td>
+      <td>Nuclear Equipment Operation Technicians</td>
+      <td>Kern</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>470</td>
+    </tr>
+    <tr>
+      <th>580</th>
+      <td>Power Plant Operators</td>
+      <td>Stationary Engineers and Boiler Operators</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>81510.0</td>
+      <td>50,000 to 100,000</td>
+      <td>330</td>
+    </tr>
+    <tr>
+      <th>594</th>
+      <td>Power Plant Operators</td>
+      <td>Pump Operators, Except Wellhead Pumpers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>50366.0</td>
+      <td>50,000 to 100,000</td>
+      <td>290</td>
+    </tr>
+    <tr>
+      <th>623</th>
+      <td>Power Plant Operators</td>
+      <td>Gas Plant Operators</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>60340.0</td>
+      <td>50,000 to 100,000</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th>635</th>
+      <td>Power Plant Operators</td>
+      <td>Signal and Track Switch Repairers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>62115.0</td>
+      <td>50,000 to 100,000</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th>703</th>
+      <td>Power Plant Operators</td>
+      <td>Gas Compressor and Gas Pumping Station Operators</td>
+      <td>Los Angeles</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>31883.0</td>
+      <td>below 50,000</td>
+      <td>42540</td>
+    </tr>
+    <tr>
+      <th>704</th>
+      <td>Power Plant Operators</td>
+      <td>Pump Operators, Except Wellhead Pumpers</td>
+      <td>Los Angeles</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>31883.0</td>
+      <td>below 50,000</td>
+      <td>42540</td>
+    </tr>
+    <tr>
+      <th>878</th>
+      <td>Power Plant Operators</td>
+      <td>Manufacturing Production Technicians</td>
+      <td>Los Angeles</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>2280</td>
+    </tr>
+    <tr>
+      <th>879</th>
+      <td>Power Plant Operators</td>
+      <td>Nuclear Equipment Operation Technicians</td>
+      <td>Los Angeles</td>
+      <td>Associate's degree</td>
+      <td>None</td>
+      <td>47466.0</td>
+      <td>below 50,000</td>
+      <td>1640</td>
+    </tr>
+    <tr>
+      <th>880</th>
+      <td>Power Plant Operators</td>
+      <td>Petroleum Pump System Operators, Refinery Operators, and Gaugers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>95190.0</td>
+      <td>50,000 to 100,000</td>
+      <td>1150</td>
+    </tr>
+    <tr>
+      <th>881</th>
+      <td>Power Plant Operators</td>
+      <td>Control and Valve Installers and Repairers, Except Mechanical Door</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>79325.0</td>
+      <td>50,000 to 100,000</td>
+      <td>520</td>
+    </tr>
+    <tr>
+      <th>882</th>
+      <td>Power Plant Operators</td>
+      <td>Electrical and Electronics Repairers, Commercial and Industrial Equipment</td>
+      <td>Los Angeles</td>
+      <td>Postsecondary non-degree award</td>
+      <td>None</td>
+      <td>73976.0</td>
+      <td>50,000 to 100,000</td>
+      <td>900</td>
+    </tr>
+    <tr>
+      <th>883</th>
+      <td>Power Plant Operators</td>
+      <td>Signal and Track Switch Repairers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>38169.0</td>
+      <td>below 50,000</td>
+      <td>790</td>
+    </tr>
+    <tr>
+      <th>884</th>
+      <td>Power Plant Operators</td>
+      <td>Stationary Engineers and Boiler Operators</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>77362.0</td>
+      <td>50,000 to 100,000</td>
+      <td>650</td>
+    </tr>
+    <tr>
+      <th>885</th>
+      <td>Power Plant Operators</td>
+      <td>Gas Plant Operators</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>100338.0</td>
+      <td>over 100,000</td>
+      <td>230</td>
+    </tr>
+    <script src="table.js"></script>
+  </tbody>
+</table>

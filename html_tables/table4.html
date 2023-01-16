@@ -1,0 +1,361 @@
+<head>
+  <form>
+ <input type="button" value="<<< Click to go back!" onclick="history.back()">
+</form>
+  <h5> Here are the list of Jobs that matched your selection. <br>You can filter the table to further customize</h5>
+
+</head>
+<table border="1" class="dataframe">
+  <thead>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="table.js"></script>
+    <link href="table_styles.css" rel="stylesheet" />
+    <tr style="text-align: right;">
+      <caption><h5>Alternative Jobs Summary</h5></caption>
+      <th></th>
+      <th>Current Title</th>
+      <th index=1>Match Title <div class="filter"></div></th>
+      <th index=2>Job Location <div class="filter"></div></th>
+      <th index=3>Entry Level Education <div class="filter"></div></th>
+      <th index=4>Work Experience <div class="filter"></div></th>
+      <th>Median Annual Wage</th>
+      <th index=6>Annual Wage Range <div class="filter"></div></th>
+      <th>Total Job Openings </th>
+    </tr>
+
+  </thead>
+  <tbody>
+    <tr>
+      <th>4</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Construction Laborers</td>
+      <td>Contra Costa</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>62196.0</td>
+      <td>50,000 to 100,000</td>
+      <td>15970</td>
+    </tr>
+    <tr>
+      <th>122</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Refractory Materials Repairers, Except Brickmasons</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>91212.0</td>
+      <td>50,000 to 100,000</td>
+      <td>1030</td>
+    </tr>
+    <tr>
+      <th>170</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Tire Repairers and Changers</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>35410.0</td>
+      <td>below 50,000</td>
+      <td>360</td>
+    </tr>
+    <tr>
+      <th>185</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters</td>
+      <td>Contra Costa</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>42462.0</td>
+      <td>below 50,000</td>
+      <td>420</td>
+    </tr>
+    <tr>
+      <th>215</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Derrick Operators, Oil and Gas</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>84399.0</td>
+      <td>50,000 to 100,000</td>
+      <td>350</td>
+    </tr>
+    <tr>
+      <th>231</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Farmworkers, Farm, Ranch, and Aquacultural Animals</td>
+      <td>Contra Costa</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>340</td>
+    </tr>
+    <tr>
+      <th>251</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Paving, Surfacing, and Tamping Equipment Operators</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>62153.0</td>
+      <td>50,000 to 100,000</td>
+      <td>220</td>
+    </tr>
+    <tr>
+      <th>301</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Rock Splitters, Quarry</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th>302</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Roof Bolters, Mining</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th>324</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Rail-Track Laying and Maintenance Equipment Operators</td>
+      <td>Contra Costa</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>341</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Construction Laborers</td>
+      <td>Kern</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>41699.0</td>
+      <td>below 50,000</td>
+      <td>16200</td>
+    </tr>
+    <tr>
+      <th>356</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Farmworkers, Farm, Ranch, and Aquacultural Animals</td>
+      <td>Kern</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>31327.0</td>
+      <td>below 50,000</td>
+      <td>16190</td>
+    </tr>
+    <tr>
+      <th>433</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Tire Repairers and Changers</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>33258.0</td>
+      <td>below 50,000</td>
+      <td>1510</td>
+    </tr>
+    <tr>
+      <th>440</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Refractory Materials Repairers, Except Brickmasons</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>51369.0</td>
+      <td>50,000 to 100,000</td>
+      <td>1460</td>
+    </tr>
+    <tr>
+      <th>529</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Derrick Operators, Oil and Gas</td>
+      <td>Kern</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>53332.0</td>
+      <td>50,000 to 100,000</td>
+      <td>680</td>
+    </tr>
+    <tr>
+      <th>541</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters</td>
+      <td>Kern</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>36936.0</td>
+      <td>below 50,000</td>
+      <td>620</td>
+    </tr>
+    <tr>
+      <th>550</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Paving, Surfacing, and Tamping Equipment Operators</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>66618.0</td>
+      <td>50,000 to 100,000</td>
+      <td>470</td>
+    </tr>
+    <tr>
+      <th>639</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Rock Splitters, Quarry</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <th>640</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Roof Bolters, Mining</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>Less than 5 years</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <th>655</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Rail-Track Laying and Maintenance Equipment Operators</td>
+      <td>Kern</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>683</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Construction Laborers</td>
+      <td>Los Angeles</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>44364.0</td>
+      <td>below 50,000</td>
+      <td>35140</td>
+    </tr>
+    <tr>
+      <th>788</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Tire Repairers and Changers</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>32194.0</td>
+      <td>below 50,000</td>
+      <td>2130</td>
+    </tr>
+    <tr>
+      <th>789</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters</td>
+      <td>Los Angeles</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>39616.0</td>
+      <td>below 50,000</td>
+      <td>1500</td>
+    </tr>
+    <tr>
+      <th>790</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Farmworkers, Farm, Ranch, and Aquacultural Animals</td>
+      <td>Los Angeles</td>
+      <td>No formal educational credential</td>
+      <td>None</td>
+      <td>31369.0</td>
+      <td>below 50,000</td>
+      <td>520</td>
+    </tr>
+    <tr>
+      <th>791</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Rail-Track Laying and Maintenance Equipment Operators</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>53247.0</td>
+      <td>50,000 to 100,000</td>
+      <td>1160</td>
+    </tr>
+    <tr>
+      <th>792</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Paving, Surfacing, and Tamping Equipment Operators</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>760</td>
+    </tr>
+    <tr>
+      <th>793</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Rock Splitters, Quarry</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>820</td>
+    </tr>
+    <tr>
+      <th>794</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Roof Bolters, Mining</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>0.0</td>
+      <td>No Information</td>
+      <td>820</td>
+    </tr>
+    <tr>
+      <th>795</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Derrick Operators, Oil and Gas</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>47791.0</td>
+      <td>below 50,000</td>
+      <td>460</td>
+    </tr>
+    <tr>
+      <th>796</th>
+      <td>Roustabouts, Oil and Gas</td>
+      <td>Refractory Materials Repairers, Except Brickmasons</td>
+      <td>Los Angeles</td>
+      <td>High school diploma or equivalent</td>
+      <td>None</td>
+      <td>63185.0</td>
+      <td>50,000 to 100,000</td>
+      <td>710</td>
+    </tr>
+
+    <script src="table.js"></script>
+  </tbody>
+</table>
