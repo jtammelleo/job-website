@@ -36,7 +36,7 @@ CsvToHtmlTable = {
 
                 for (var rowIdx = 1; rowIdx < csvData.length; rowIdx++) {
                     var $tableBodyRow = $("<tr></tr>");
-                    for (var colIdx = 0; colIdx < csvData[rowIdx].length; colIdx++) {
+                    for (var colIdx = 0; colIdx < csvData[rowIdx].length - 1; colIdx++) {
                         var $tableBodyRowTd = $("<td></td>");
                         var cellTemplateFunc = customTemplates[colIdx];
                         if (cellTemplateFunc) {
@@ -44,10 +44,17 @@ CsvToHtmlTable = {
                         } else {
                             $tableBodyRowTd.text(csvData[rowIdx][colIdx]);
                         }
+
                         $tableBodyRow.append($tableBodyRowTd);
-                        $tableBody.append($tableBodyRow);
                     }
+
+                    var $tableBodyRowTd = $("<td></td>");
+                    $tableBodyRowTd.html("<a href='https:/google.com/search?q=jobs+" + csvData[rowIdx][3] + " " + csvData[rowIdx][12] + "' target='_blank'>Click to find openings</a>");
+                    $tableBodyRow.append($tableBodyRowTd);
+
+                    $tableBody.append($tableBodyRow);
                 }
+
                 $table.append($tableBody);
 
                 $table.DataTable(datatables_options);
