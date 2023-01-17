@@ -1,7 +1,7 @@
 ## Oil and Gas Worker Job Transition Website
 Project for DPI-691M at HKS J-term 2023
 
-[Check out our website here!](https://jtammelleo.github.io/job-website)
+Check out our website here!: <a> https://jtammelleo.github.io/job-website </a>
 
 ### Data
 Original source data and final data are in the data folder. See README.md in data folder for details of how data for this website was compiled. 
