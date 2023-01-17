@@ -125,3 +125,30 @@ a {
 #datavis {
   height: 400px;
 }
+
+.filter input {
+  margin: 5px !important;
+  padding: 0 !important;
+  width: 10%;
+}
+
+input{
+  top: 10;
+  color:darkslategray;
+  font-size: large;
+}
+
+
+.filter {
+  position: absolute;
+  width: 20vw;
+  height: 30vh;
+  display: none;
+  text-align: left;
+  font-size: small;
+  z-index: 9999;
+  overflow: auto;
+  background: #ffffff;
+  color: #1f2d54;
+  border: 1px solid #dddddd;
+}
