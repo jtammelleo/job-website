@@ -10,15 +10,18 @@
   <div class="w3-top">
     <div class="w3-bar w3-green w3-card w3-left-align w3-large">
       <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-green" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-      <a href="index_tables.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('Home (Tables)')">Home (Tables)</button></a>
-      <a href="index.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('Home (Match Tool)')">Home (Match Tool)</button></a>
+      <a href="index_tables.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('Home (Match Tables by Job)')">Home (Match Tables by Job)</button></a>
+      <a href="index_bigtable.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('Home (Match Tool)')">Home (Full Match Table)</button></a>
       <a href="charts.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('Charts')">Charts</button>
       <a href="about_us.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('About us')">About Us</button></a>
     </div>
   </div>
 
 <h1>Charts</h1>
-  <p>Here is a helpful visual of the average wage for oil and gas workers in California in 2022. </p>
-  <img src="data/job_website_datavis.png">
+
+<div id="body_container">
+  <p>The compensation, benefits, union status, and other job factors vary largely within the oil and gas industries. As an example, here is a helpful visual of the average wage for some of the most common oil and gas workers in California in 2022. </p>
+  <img id="datavis" src="data/job_website_datavis.png">
+</div>
 
 </body>
