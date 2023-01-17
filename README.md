@@ -28,5 +28,5 @@ Sprint 2:
 ### Retros
 Retro forms for sprint 1 and 2 have been submitted!
 
-###Home Pages
-We have two home pages currently to present the two data presentations for user feedback, comparison, contrast.
+### Please Note -- Home Pages Tabs
+We have two home pages currently to present two different data presentations for user feedback, comparison, contrast. In subequent sprints, we would use this feedback to determine how to display the data and what types of features are most desired. 
