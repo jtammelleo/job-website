@@ -27,3 +27,6 @@ Sprint 2:
 
 ### Retros
 Retro forms for sprint 1 and 2 have been submitted!
+
+###Home Pages
+We have two home pages currently to present the two data presentations for user feedback, comparison, contrast.
